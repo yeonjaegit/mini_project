@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/LeeSeoyun(Win).otf') format('opentype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MyFont', sans-serif;
+  font-weight: 340;
+  font-size: 24px;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+  margin-left: 270px;
+}
+
+h4 {
+  margin-left: 270px;
+  padding-top: 10px;
+}
+
+div > p {
+  margin: 0;
+  margin-left: 290px;
+}
+
+form {
+  margin-left: 320px;
+  padding-top: 5px;
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+div > h5 {
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+form > button {
+  margin-top: 10px;
+  width: 165px;
+  padding: 5px;
+}
+
+div > input {
+  width: 165px;
+  font-size: 16px;
+}
+
+.maindiv {
+  background-color: rgb(246, 255, 208);
+  height: 1000px;
+}
