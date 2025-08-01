@@ -102,28 +102,33 @@ div > input {
 
 .allform {
   display: block;
-  height: 257px;
+  height: 244px;
   width: 190px;
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: 275px;
-  padding-top: 11px;
+  padding-top: 8px;
+  padding-bottom: 0;
+  padding-left: 8px;
 }
 
 .cenclebutton {
   width: 75px;
   margin-left: 8px;
+  margin-top: 6px;
 }
 
 .savebutton {
   width: 75px;
   margin-left: 3px;
+  margin-top: 5px;
 }
 
 .editinput {
   resize: none;
   font-size: 20px;
   margin: 3px;
+  margin-bottom: 0;
 }
 
 .addform {
