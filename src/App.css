@@ -17,21 +17,22 @@ li {
   border-radius: 10px;
   margin: 4px;
   padding: 5px;
-  margin-left: 270px;
+  margin-left: 260px;
+  cursor: pointer;
 }
 
 h4 {
-  margin-left: 270px;
+  margin-left: 260px;
   padding-top: 10px;
 }
 
 div > p {
   margin: 0;
-  margin-left: 290px;
+  margin-left: 280px;
 }
 
 form {
-  margin-left: 320px;
+  margin-left: 310px;
   padding-top: 5px;
   border: 1px solid gray;
   display: inline-block;
@@ -58,5 +59,82 @@ div > input {
 
 .maindiv {
   background-color: rgb(246, 255, 208);
-  height: 1000px;
+  height: 300000px;
+}
+
+.mainh2 {
+  margin-left: 305px;
+}
+
+.weekh2 {
+  margin-left: 305px;
+}
+
+.maincheck {
+  margin-right: 5px;
+}
+
+.editbutton {
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.addbuttons {
+  display: inline-block;
+  margin: 3px;
+}
+
+.addbtn {
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.editinput {
+  display: block;
+  width: 165px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.allform {
+  display: block;
+  height: 257px;
+  width: 190px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 275px;
+  padding-top: 11px;
+}
+
+.cenclebutton {
+  width: 75px;
+  margin-left: 8px;
+}
+
+.savebutton {
+  width: 75px;
+  margin-left: 3px;
+}
+
+.editinput {
+  resize: none;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.addform {
+  padding-top: 3px;
+}
+
+.addform h5 {
+  margin-bottom: 0px;
+}
+
+.addform input {
+  width: 165px;
+  font-size: 20px;
 }
