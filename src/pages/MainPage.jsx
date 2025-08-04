@@ -47,7 +47,10 @@ function MainPage() {
                   <input type="checkbox" className="maincheck" onChange={(e) => { // 일정 완료 시 체크할 체크박스
                     if(e.target.checked && window.confirm(`${data.title} 다 함?`)) { // 체크박스 체크됌 + confirm창에서 확인 눌렀을 때
                       checkDelete(data.id); // 해당 일정 삭제 함수 호출(해당 일정의 id 보내줌)
-                    }e.target.checked = false; // 체크박스가 체크된 상태가 유지되는 버그를 방지하기 위해 삭제하던 안 하던 체크 풀기
+                    } else {
+                      setOpenPtag(null);
+                    }
+                    e.target.checked = false; // 체크박스가 체크된 상태가 유지되는 버그를 방지하기 위해 삭제하던 안 하던 체크 풀기
                   }} />
                   {data.title} {/* 일정 제목 */}
                 </li>
