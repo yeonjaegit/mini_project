@@ -3,6 +3,7 @@ import { useState } from "react";
 function AllSchedule() {
 
   const allSchedules = JSON.parse(localStorage.getItem('schedules')) || []; // 모든 일정 로컬스토리지에서 꺼내옴
+  
   allSchedules.sort((a,b) => { // sort는 배열을 하나하나 비교
     return(
       new Date(a.date) - new Date(b.date) // 날짜객체로 변환 후 a - b가 음수면 그대로, 양수면 자리바꿈(오름차순 정렬)
